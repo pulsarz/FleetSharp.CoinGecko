@@ -32,7 +32,7 @@ namespace FleetSharp.CoinGecko
                 {
 
                 }
-                
+                dtLastUpdate = DateTime.Now;
             }
             return lastPrice;
         }
